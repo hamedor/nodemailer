@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 var corsOptions = {
-  origin: process.env.CORS_ORIGIN,
+  origin: 'https://main--legendary-snickerdoodle-b42463.netlify.app',
   optionsSuccessStatus: 200
 }
 
